@@ -1,0 +1,47 @@
+body{
+    padding-top: 0.1px;
+}
+.navbar-brand {
+    font-family: "DM Serif Display", serif;
+    font-size: xx-large;
+    margin: 1%;
+}
+
+.navbar-nav{
+    font-family: "PT Serif", serif;
+    font-size: x-large;
+}
+
+#navbarNav{
+    margin: 1%;
+}
+.navbar1{
+    border-bottom: 2px black solid;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.main{
+    margin-top: 103px;
+}
+.imgcont{
+    display: flex;
+    justify-content: center;
+}
+.lead{
+    font-family: "PT Serif", serif;
+    font-size: xx-large;
+}
+
+.line{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+}
+
+.content1{
+    padding: 20px;
+}
+
+.footer1{
+    margin-bottom: 0px;
+}

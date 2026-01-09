@@ -1,0 +1,135 @@
+body{
+    padding-top: 0.1px;
+}
+.navbar-brand {
+    font-family: "DM Serif Display", serif;
+    font-size: xx-large;
+    margin: 1%;
+}
+
+.navbar-nav{
+    font-family: "PT Serif", serif;
+    font-size: x-large;
+}
+
+#navbarNav{
+    margin: 1%;
+}
+
+.navbar1{
+    border-bottom: 2px black solid;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.main{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contect-container{
+    font-family: "DM Serif Display", serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.class-left-title h2{
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.class-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid yellowgreen;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 45px;
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: 2px whitesmoke solid;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contact-left button:hover{
+    background-color: #a9a9a9;
+    border: 5px whitesmoke solid;
+}
+
+.contact-right img{
+    width: 500px;
+}
+
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+
+.lead{
+    font-family: "PT Serif", serif;
+    font-size: xx-large;
+}
+
+.line{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+}
+
+.content1{
+    padding: 20px;
+}
+
+.footer1{
+    margin-bottom: 0px;
+}
